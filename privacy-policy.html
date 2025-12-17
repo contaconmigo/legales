@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - ContaConmigo</title>
+    <style>
+        :root {
+            --primary-color: #4F46E5;
+            --text-color: #1F2937;
+            --text-secondary: #6B7280;
+            --background: #F9FAFB;
+            --card-background: #FFFFFF;
+            --border-color: #E5E7EB;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-background);
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .logo {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        
+        h3 {
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid var(--border-color);
+        }
+        
+        th {
+            background-color: var(--background);
+            font-weight: 600;
+        }
+        
+        .highlight {
+            background-color: #FEF3C7;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #F59E0B;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            table {
+                font-size: 14px;
+            }
+            
+            th, td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">💰</div>
+            <h1>Política de Privacidad</h1>
+            <p class="last-updated">Última actualización: Diciembre 2024</p>
+        </div>
+        
+        <h2>1. Introducción</h2>
+        <p>Bienvenido a ContaConmigo. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos tu información cuando utilizas nuestra aplicación de gestión de finanzas personales.</p>
+        
+        <h2>2. Información que Recopilamos</h2>
+        
+        <h3>2.1 Información de Cuenta</h3>
+        <ul>
+            <li><strong>Correo electrónico:</strong> Utilizado para crear y gestionar tu cuenta de usuario.</li>
+            <li><strong>Identificador de usuario:</strong> Un identificador único generado automáticamente para tu cuenta.</li>
+        </ul>
+        
+        <h3>2.2 Datos Financieros</h3>
+        <ul>
+            <li><strong>Transacciones:</strong> Registros de ingresos y gastos que ingresas manualmente.</li>
+            <li><strong>Cuentas:</strong> Nombres de las cuentas que creas (ej: "Efectivo", "Banco").</li>
+            <li><strong>Categorías:</strong> Categorías personalizadas para organizar tus transacciones.</li>
+        </ul>
+        
+        <div class="highlight">
+            <strong>Importante:</strong> Todos los datos financieros se almacenan <strong>localmente en tu dispositivo</strong> utilizando una base de datos SQLite. No tenemos acceso a esta información desde nuestros servidores.
+        </div>
+        
+        <h3>2.3 Datos de Audio (Opcional)</h3>
+        <ul>
+            <li>Si utilizas la función de entrada por voz, grabamos temporalmente tu audio para transcribirlo.</li>
+            <li>El audio se envía a nuestro servidor solo para procesamiento y se elimina inmediatamente después.</li>
+            <li>No almacenamos grabaciones de audio.</li>
+        </ul>
+        
+        <h2>3. Cómo Usamos Tu Información</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Dato</th>
+                    <th>Propósito</th>
+                    <th>Almacenamiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Email</td>
+                    <td>Autenticación y recuperación de cuenta</td>
+                    <td>Supabase (nube)</td>
+                </tr>
+                <tr>
+                    <td>Datos financieros</td>
+                    <td>Funcionamiento de la app</td>
+                    <td>Local (tu dispositivo)</td>
+                </tr>
+                <tr>
+                    <td>Audio</td>
+                    <td>Transcripción de voz a texto</td>
+                    <td>Temporal (se elimina tras procesar)</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>4. Compartición de Datos</h2>
+        <p><strong>No vendemos ni compartimos tu información personal con terceros</strong> para fines de marketing.</p>
+        <p>Solo compartimos datos en los siguientes casos:</p>
+        <ul>
+            <li><strong>Servicios de autenticación:</strong> Utilizamos Supabase para gestionar el inicio de sesión.</li>
+            <li><strong>Procesamiento de voz:</strong> El audio se procesa en nuestros servidores para transcripción (solo si usas esta función).</li>
+        </ul>
+        
+        <h2>5. Seguridad de los Datos</h2>
+        <p>Implementamos medidas de seguridad para proteger tu información:</p>
+        <ul>
+            <li>Los datos financieros se almacenan exclusivamente en tu dispositivo.</li>
+            <li>La comunicación con nuestros servidores utiliza cifrado HTTPS.</li>
+            <li>Las sesiones de usuario están protegidas con tokens seguros.</li>
+        </ul>
+        
+        <h2>6. Tus Derechos</h2>
+        <p>Tienes derecho a:</p>
+        <ul>
+            <li><strong>Acceder</strong> a tus datos personales.</li>
+            <li><strong>Eliminar</strong> tu cuenta y datos asociados.</li>
+            <li><strong>Exportar</strong> tus datos financieros locales.</li>
+        </ul>
+        <p>Para ejercer estos derechos, puedes hacerlo directamente desde la aplicación o contactarnos.</p>
+        
+        <h2>7. Menores de Edad</h2>
+        <p>ContaConmigo es una aplicación educativa de finanzas personales apta para todo público, incluyendo adolescentes. No recopilamos intencionalmente información de menores de 13 años sin el consentimiento de sus padres o tutores.</p>
+        
+        <h2>8. Cambios a Esta Política</h2>
+        <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos sobre cambios significativos a través de la aplicación o por correo electrónico.</p>
+        
+        <h2>9. Contacto</h2>
+        <p>Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:privacidad@contaconmigo.app">privacidad@contaconmigo.app</a></li>
+        </ul>
+        
+        <div class="footer">
+            <p>© 2024 ContaConmigo. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
+
